@@ -35,7 +35,7 @@ public class LoginPage extends TestBase{
     
     public boolean validateLogo()
     {
-    	 return Logo.isDisplayed();
+    	 return Logo.isEnabled();
     }
     
     public HomePage login(String un, String pwd)
