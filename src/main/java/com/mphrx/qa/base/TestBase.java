@@ -26,8 +26,9 @@ public class TestBase {
 		try {
 			
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("/Users/maheshbhakuni/eclipse-workspace/MphrxTest/src/main/java/com/mphrx/"
-					+ "qa/config/config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "/src/main/java/com/mphrx"
+                    + "/qa/config/config.properties");
+			
 			prop.load(ip);
 		}
 		catch (FileNotFoundException e)

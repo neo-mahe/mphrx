@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66194" started-at="2019-01-10T06:14:19Z" finished-at="2019-01-10T06:15:26Z">
+  <suite name="Default suite" duration-ms="55479" started-at="2019-01-10T07:20:39Z" finished-at="2019-01-10T07:21:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66194" started-at="2019-01-10T06:14:19Z" finished-at="2019-01-10T06:15:26Z">
+    <test name="Default test" duration-ms="55479" started-at="2019-01-10T07:20:39Z" finished-at="2019-01-10T07:21:34Z">
       <class name="com.mphrx.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="28959" started-at="2019-01-10T06:14:20Z" finished-at="2019-01-10T06:14:49Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="17827" started-at="2019-01-10T07:20:39Z" finished-at="2019-01-10T07:20:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitileTest()[pri:1, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="loginPageTitileTest" duration-ms="53" started-at="2019-01-10T06:14:49Z" finished-at="2019-01-10T06:14:49Z">
+        <test-method status="PASS" signature="loginPageTitileTest()[pri:1, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="loginPageTitileTest" duration-ms="22" started-at="2019-01-10T07:20:56Z" finished-at="2019-01-10T07:20:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitileTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="709" started-at="2019-01-10T06:14:49Z" finished-at="2019-01-10T06:14:50Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="194" started-at="2019-01-10T07:20:56Z" finished-at="2019-01-10T07:20:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="17383" started-at="2019-01-10T06:14:50Z" finished-at="2019-01-10T06:15:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="16442" started-at="2019-01-10T07:20:57Z" finished-at="2019-01-10T07:21:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logoImageTest()[pri:2, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="logoImageTest" duration-ms="2414" started-at="2019-01-10T06:15:07Z" finished-at="2019-01-10T06:15:09Z">
+        <test-method status="PASS" signature="logoImageTest()[pri:2, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="logoImageTest" duration-ms="2736" started-at="2019-01-10T07:21:13Z" finished-at="2019-01-10T07:21:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoImageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="360" started-at="2019-01-10T06:15:09Z" finished-at="2019-01-10T06:15:10Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="204" started-at="2019-01-10T07:21:16Z" finished-at="2019-01-10T07:21:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="12008" started-at="2019-01-10T06:15:10Z" finished-at="2019-01-10T06:15:22Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="setUp" is-config="true" duration-ms="13956" started-at="2019-01-10T07:21:16Z" finished-at="2019-01-10T07:21:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="loginTest" duration-ms="3710" started-at="2019-01-10T06:15:22Z" finished-at="2019-01-10T06:15:25Z">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="loginTest" duration-ms="3866" started-at="2019-01-10T07:21:30Z" finished-at="2019-01-10T07:21:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="189" started-at="2019-01-10T06:15:25Z" finished-at="2019-01-10T06:15:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mphrx.qa.testcases.LoginPageTest@42dafa95]" name="tearDown" is-config="true" duration-ms="183" started-at="2019-01-10T07:21:34Z" finished-at="2019-01-10T07:21:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
