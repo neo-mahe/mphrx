@@ -43,36 +43,38 @@ public class TestBase {
 	 public static void initialization()
 	 {
 		 String browserName= prop.getProperty("browser");
-		 if (browserName.equals("chrome"))
+		 
+		  if (browserName.equals("chrome"))
 		 {
 			 WebDriverManager.chromedriver().setup();
-			 WebDriver driver= new ChromeDriver();
+			 driver= new ChromeDriver();
 			 
 		 }
 		 else if (browserName.equals("FF"))
 		 {
 			 WebDriverManager.firefoxdriver().setup();
-			 WebDriver driver= new FirefoxDriver();
+			  driver= new FirefoxDriver();
 			 
 		 }
 		 else if (browserName.equals("Edge"))
 		 {
 			 WebDriverManager.edgedriver().setup();
-			 WebDriver driver= new EdgeDriver();
+			  driver= new EdgeDriver();
 			 
 		 }
 		 
 		 else if (browserName.equals("IE"))
 		 {
 			 WebDriverManager.iedriver().setup();
-			 WebDriver driver= new InternetExplorerDriver();
+			  driver= new InternetExplorerDriver();
 			 
 		 }
-		 
+		
+			
 		 driver.manage().window().maximize();
 		 driver.manage().deleteAllCookies();
-		 driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		 driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
+		 driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		 driver.get(prop.getProperty("url"));
 		 
 		 

@@ -29,7 +29,7 @@ public class LoginPageTest extends TestBase{
 	public void loginPageTitileTest()
 	{
 		String title = loginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "MphRx");
+		Assert.assertEquals(title, "title");
  	}
 	
 	@Test(priority=2)
